@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>WishPath - Rinforzi positivi</title>
   <meta name="description" content="WishPath trasforma i progressi quotidiani in piccoli passi virtuali verso un obiettivo.">
+
   <style>
     body {
       margin: 0;
@@ -21,10 +22,20 @@
     }
 
     .card {
-      background: rgba(255, 255, 255, 0.9);
+      background: rgba(255, 255, 255, 0.92);
       border-radius: 28px;
       padding: 40px;
       box-shadow: 0 18px 50px rgba(0, 0, 0, 0.08);
+      text-align: center;
+    }
+
+    .logo {
+      width: 150px;
+      max-width: 55%;
+      height: auto;
+      margin: 0 auto 24px;
+      display: block;
+      border-radius: 24px;
     }
 
     h1 {
@@ -36,17 +47,13 @@
     p {
       font-size: 18px;
       margin: 0 0 18px;
+      text-align: left;
     }
 
-    .badge {
-      display: inline-block;
-      margin-bottom: 22px;
-      padding: 8px 14px;
-      border-radius: 999px;
-      background: #efe7ff;
-      color: #6f3ff5;
-      font-weight: 700;
-      font-size: 15px;
+    .intro {
+      text-align: center;
+      font-size: 20px;
+      font-weight: 500;
     }
 
     .button {
@@ -58,6 +65,18 @@
       color: white;
       text-decoration: none;
       font-weight: 700;
+    }
+
+    .contact {
+      margin-top: 22px;
+      font-size: 15px;
+      color: #667085;
+      text-align: center;
+    }
+
+    .contact a {
+      color: #0ea5c6;
+      font-weight: 600;
     }
 
     footer {
@@ -76,6 +95,10 @@
         padding: 28px;
       }
 
+      .logo {
+        width: 130px;
+      }
+
       h1 {
         font-size: 34px;
       }
@@ -83,22 +106,31 @@
       p {
         font-size: 17px;
       }
+
+      .intro {
+        font-size: 18px;
+      }
     }
   </style>
 </head>
+
 <body>
   <main class="container">
     <section class="card">
-      <div class="badge">WishPath</div>
+      <img
+        class="logo"
+        src="https://wishpathapp.github.io/wishpath-logo.jpg"
+        alt="Logo WishPath"
+      >
 
       <h1>WishPath - Rinforzi positivi</h1>
 
-      <p>
-        WishPath trasforma i progressi quotidiani in piccoli passi virtuali verso un obiettivo.
+      <p class="intro">
+        Trasforma i progressi quotidiani in piccoli passi virtuali verso un obiettivo.
       </p>
 
       <p>
-        È pensata per famiglie, scuole, educatori, gruppi e team che vogliono rendere visibile,
+        WishPath è pensata per famiglie, scuole, educatori, gruppi e team che vogliono rendere visibile,
         motivante e condiviso l’impegno di chi sta crescendo, studiando, lavorando o cercando
         di raggiungere un traguardo.
       </p>
@@ -110,6 +142,11 @@
       </p>
 
       <a class="button" href="privacy.html">Leggi la Privacy Policy</a>
+
+      <p class="contact">
+        Contatti:
+        <a href="mailto:wishpath@icon.srl">wishpath@icon.srl</a>
+      </p>
     </section>
 
     <footer>
